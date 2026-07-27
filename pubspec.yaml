@@ -11,7 +11,6 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  flutter_inappwebview: ^6.0.0
   
   # Speech & Audio
   speech_to_text: ^7.3.0
@@ -24,10 +23,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
-
-# FORCE OVERRIDE THE BROKEN SUB-DEPENDENCY HERE:
-dependency_overrides:
-  flutter_inappwebview_android: ^1.1.4 # or higher patched release
 
 flutter:
   uses-material-design: true
