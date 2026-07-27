@@ -8,7 +8,7 @@ Copy and paste the content below into a file named `README.md` in the root of yo
 
 **Return Loop Mobile** is an innovative Flutter application that bridges the communication gap between spoken language and American Sign Language (ASL). Utilizing on-device speech recognition, it transcribes spoken words in real-time and instantly translates them into a visual sequence of ASL hand signs.
 
-## 🚀 Features
+## Features
 
 * **Real-Time Voice Translation:** Speak into your device microphone, and the app instantly processes the audio.
 * **Keyword Extraction:** Intelligent parsing identifies key concepts and ignores filler words for accurate translation.
@@ -21,7 +21,7 @@ Copy and paste the content below into a file named `README.md` in the root of yo
 * **Clean, Modern UI:** Built with Flutter Material 3, featuring an adaptive dark theme and sleek glassmorphism cards.
 * **Privacy Focused:** Uses native on-device speech engines (iOS Speech framework / Android Google Speech Recognition) where possible; no voice data is stored on external servers by the app.
 
-## 📸 Screenshots
+##  Screenshots
 
 *(Insert screenshots of your app here. You can use the images generated in previous turns)*
 
@@ -29,14 +29,14 @@ Copy and paste the content below into a file named `README.md` in the root of yo
 | --- | --- |
 |  |  |
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 * **Framework:** [Flutter](https://flutter.dev/) (Dart)
 * **Speech Recognition:** [`speech_to_text`](https://pub.dev/packages/speech_to_text)
 * **Assets:** Local `.jpg`/`.png` images for the ASL alphabet (A-Z).
 * **Backend:** None required (100% on-device operation).
 
-## 🏗️ Prerequisites
+##  Prerequisites
 
 Before running the project, ensure you have the following installed:
 
@@ -126,7 +126,7 @@ Add the following keys to your `Info.plist` file to explain why you need microph
 * [ ] **Grammar Parsing:** Improve ASL grammar structure (Topic-Comment format) rather than direct English-to-Sign word order.
 * [ ] **Sign-to-Voice (Two-Way):** Use device camera and AI models to translate sign language back into spoken text.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you have ideas for new features, bug fixes, or UI enhancements, please feel free to:
 
@@ -140,7 +140,7 @@ Contributions are welcome! If you have ideas for new features, bug fixes, or UI 
 
 This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
 
-## 🌟 Acknowledgments
+## Acknowledgments
 
 * ASL datasets used for static images and reference.
 * The Flutter community for excellent documentation and packages.
