@@ -1,0 +1,32 @@
+name: sign_talk
+description: "A mobile application for speech to sign language translation."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # Speech & Audio
+  speech_to_text: ^7.3.0
+  
+  # Video & Asset Playback
+  video_player: ^2.9.2
+  flutter_3d_controller: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/alphabet/
+   
