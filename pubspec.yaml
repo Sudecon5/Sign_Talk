@@ -25,6 +25,10 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^6.0.0
 
+# FORCE OVERRIDE THE BROKEN SUB-DEPENDENCY HERE:
+dependency_overrides:
+  flutter_inappwebview_android: ^1.1.4 # or higher patched release
+
 flutter:
   uses-material-design: true
 
