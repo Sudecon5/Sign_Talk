@@ -265,6 +265,8 @@ class _SignTalkMobileScreenState extends State<SignTalkMobileScreen> {
 
   /// Renders full sentences by iterating through all extracted keywords sequentially
   /// Modernized horizontal viewport with a clean, high-end card design
+  /// Renders full sentences by iterating through all extracted keywords sequentially
+  /// Modernized horizontal viewport with a clean, high-end card design
   Widget _buildSignContent(List<String> keywords) {
     if (keywords.isEmpty) {
       return const Center(
@@ -359,8 +361,9 @@ class _SignTalkMobileScreenState extends State<SignTalkMobileScreen> {
                           ),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(10),
+                            // FIXED: Added 'assets/' folder prefix and matched typical .png format
                             child: Image.asset(
-                              'alphabet/$char.jpg',
+                              'assets/alphabet/$char.png', 
                               width: 60,
                               height: 60,
                               fit: BoxFit.cover,
