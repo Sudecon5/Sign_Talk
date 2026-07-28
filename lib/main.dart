@@ -361,9 +361,9 @@ class _SignTalkMobileScreenState extends State<SignTalkMobileScreen> {
                           ),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(10),
-                            // FIXED: Added 'assets/' folder prefix and matched typical .png format
+                            // FIXED: Added 'assets/' folder prefix and matched typical .jpg format
                             child: Image.asset(
-                              'assets/alphabet/$char.png', 
+                              'assets/alphabet/$char.jpg', 
                               width: 60,
                               height: 60,
                               fit: BoxFit.cover,
